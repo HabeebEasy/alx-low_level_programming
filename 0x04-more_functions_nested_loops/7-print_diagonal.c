@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - prints diagonal using the '\' character
- * @n: number of times
+ * @n: number of times the '\' should be printed
  * Return: void
  */
 
@@ -12,11 +12,11 @@ void print_diagonal(int n)
 		_putchar('\n');
 	else
 	{
-		int p, q;
+		int i, j;
 
-		for (p = 0 ; p < n ; p++)
+		for (i = 0 ; i < n ; i++)
 		{
-			for (q = 0 ; q <= p ; q++)
+			for (j = 0 ; j <= i ; j++)
 				_putchar(' ');
 			_putchar('\\');
 			_putchar('\n');
