@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
- *  * main - entry point
- *   *
- *    * Return: it returns 0 when exit
- *     */
+ *main - entry point
+ *Return: it returns 0 when exit
+ */
 int main(void)
 {
 		printf("%s\n", __FILE__);
